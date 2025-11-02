@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: "JSCollective",
+	title: "JSCollection",
 	description: "Your favourite website on the internet!",
 };
 
