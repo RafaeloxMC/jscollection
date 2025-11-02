@@ -12,3 +12,7 @@ export const js: IScreamer[] = [
 		description: "What could possibly go wrong?!",
 	},
 ];
+
+export function findJS(id: string): IScreamer | undefined {
+	return js.find((v) => v.id == id);
+}
