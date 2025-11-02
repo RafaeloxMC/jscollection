@@ -9,7 +9,7 @@ async function Page({ params }: { params: { id: string } }) {
 	const js: IScreamer | undefined = findJS(id);
 	if (!js) redirect("/");
 	return (
-		<div className="flex flex-col items-center justify-center w-full h-full min-h-screen">
+		<div className="flex flex-col items-center justify-center w-full h-full min-h-screen bg-black">
 			<div className="text-center">
 				<h1 className="text-8xl font-extrabold">{js.name}</h1>
 				<p className="italic mt-4 mb-16">{js.description}</p>

@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar: React.FC = () => {
 	return (
-		<div className="flex flex-row gap-8 items-center justify-center p-4 shadow text-xl">
+		<div className="flex flex-row gap-8 items-center justify-center p-4 shadow text-xl bg-black">
 			<Link href="/" className="font-extrabold">
 				JSCollection
 			</Link>
