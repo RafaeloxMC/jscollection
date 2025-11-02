@@ -1,3 +1,4 @@
+import ReviewComponent from "@/components/ReviewComponent";
 import { findJS } from "@/util/js";
 import { IScreamer } from "@/util/types";
 import Image from "next/image";
@@ -79,6 +80,8 @@ async function Page({ params }: { params: { id: string } }) {
 					</div>
 				</div>
 			</div>
+
+			<ReviewComponent jsId={id} />
 		</div>
 	);
 }
