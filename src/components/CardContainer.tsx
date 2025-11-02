@@ -9,7 +9,11 @@ function CardContainer() {
 				name="Anne.JPG"
 				description="The famous Anne.JPG screamer!"
 			/>
-			<JSCard id={""} name={"2"} description={"2"} />
+			<JSCard
+				id={"car"}
+				name={"Relaxing car drive"}
+				description={"What could possibly go wrong here?"}
+			/>
 			<JSCard id={""} name={"3"} description={"3"} />
 			<JSCard id={""} name={"4"} description={"4"} />
 			<JSCard id={""} name={"5"} description={"5"} />
