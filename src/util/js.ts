@@ -17,6 +17,12 @@ export const js: IScreamer[] = [
 		description:
 			"This chair has been recorded moving out of nowhere. The footage is very rare & exclusive.",
 	},
+	{
+		id: "cocomelon",
+		name: "The Cocomelon Incident",
+		description:
+			"There are rumors that this has been banned from Cocomelon...",
+	},
 ];
 
 export function findJS(id: string): IScreamer | undefined {
