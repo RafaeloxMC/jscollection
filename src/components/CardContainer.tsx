@@ -10,7 +10,7 @@ function CardContainer() {
 					<JSCard
 						id={screamer.id}
 						description={screamer.description}
-						name={screamer.description}
+						name={screamer.name}
 						key={screamer.id + "-" + index}
 					/>
 				);
