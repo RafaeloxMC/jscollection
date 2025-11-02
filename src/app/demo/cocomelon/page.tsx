@@ -4,6 +4,7 @@ import React, { useRef, useState } from "react";
 function Page() {
 	const videoRef = useRef<HTMLVideoElement | null>(null);
 	const divRef = useRef<HTMLDivElement | null>(null);
+	// eslint-disable-next-line @typescript-eslint/no-unused-vars
 	const [playing, setPlaying] = useState(false);
 	const togglePlay = () => {
 		const v = videoRef.current;
