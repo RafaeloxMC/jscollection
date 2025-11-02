@@ -36,7 +36,7 @@ async function Page({ params }: { params: { id: string } }) {
 				</div>
 			</div>
 
-			<div className="mt-16 m-8">
+			<div className="mt-16 m-8 max-w-[50%]">
 				<h2 className="text-2xl font-bold">How to integrate</h2>
 				<div className="bg-neutral-900 rounded-lg p-4 flex flex-col gap-8">
 					<div>
