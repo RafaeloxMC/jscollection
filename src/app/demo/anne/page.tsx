@@ -5,6 +5,7 @@ import { useRef, useState } from "react";
 function AnneDemo() {
 	const [isJs, setJs] = useState(false);
 	const videoRef = useRef<HTMLVideoElement>(null);
+	const siteRef = useRef<HTMLDivElement>(null);
 	const handleClick = (): void => {
 		setJs(true);
 
@@ -18,10 +19,11 @@ function AnneDemo() {
 				playPromise.catch(() => {
 					if (window) window.location.reload();
 				});
+			siteRef.current?.requestFullscreen();
 		});
 	};
 	return (
-		<>
+		<div ref={siteRef}>
 			<video
 				ref={videoRef}
 				src="/videos/js/anne.mp4"
@@ -63,7 +65,7 @@ function AnneDemo() {
 					</div>
 				</div>
 			)}
-		</>
+		</div>
 	);
 }
 
